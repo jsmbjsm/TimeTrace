@@ -22,14 +22,14 @@
 
 ```bash
 pip install PyQt5 openpyxl
-python 计时器.py
+python Task_Timer.py 
 ```
 
 ### 打包成exe（无需Python环境）
 
 ```bash
 pip install pyinstaller
-pyinstaller -F -w --name "工作计时器" 计时器.py
+pyinstaller -F -w --name "Task_Timer" Task_Timer.py
 ```
 
 打包后在 `dist` 文件夹找到 `工作计时器.exe`。
